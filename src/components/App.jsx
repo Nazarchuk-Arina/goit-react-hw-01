@@ -1,5 +1,5 @@
 import Profile from "./Profile/Profile";
-import FriendList from "./FriendList/FriendList";
+import FriendListItem from "./FriendListItem/FriendListItem";
 import TransactionHistory from "./TransactionHistory/TransactionHistory";
 import profileData from "./../assets/profile.json";
 import friendsData from "./../assets/friends.json";
@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div className="container">
       <Profile user={profileData} />
-      <FriendList friends={friendsData} />
+      <FriendListItem friends={friendsData} />
       <TransactionHistory items={transactions} />
     </div>
   );
