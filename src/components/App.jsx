@@ -1,5 +1,5 @@
 import Profile from "./Profile/Profile";
-import FriendListItem from "./FriendListItem/FriendListItem";
+import FriendListItem from "./FriendList/FriendList";
 import TransactionHistory from "./TransactionHistory/TransactionHistory";
 import profileData from "./../assets/profile.json";
 import friendsData from "./../assets/friends.json";
