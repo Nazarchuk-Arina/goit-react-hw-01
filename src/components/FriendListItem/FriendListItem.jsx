@@ -1,9 +1,9 @@
 import s from "./FriendListItem.module.css";
 
-const FriendListItem = ({ key, avatar, name, isOnline }) => {
+const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
     <>
-      <li key={key} className={s.friends__item}>
+      <li className={s.friends__item}>
         <img className={s.friends__image} src={avatar} alt={name} width="48" />
         <p className={s.friends__name}>{name}</p>
         {isOnline === true ? (
